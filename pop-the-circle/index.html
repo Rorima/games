@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="frontScreen">
+        <div id="frontScreenContent">
+            <h1>Pop the Circle</h1>
+            <button class="frontScreenButtons" id="timedMode">Timed Mode</button>
+            <br>
+            <button class="frontScreenButtons" id="endlessMode">Endless Mode</button>
+            <p id="pScoreText" style="display: none;">Score: <span id="scoreText">0</span></p>
+        </div>
+    </div>
+
+    <div id="gameContent" style="display: none;">
+        <div id="circle"></div>
+        <div id="display">00:00</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

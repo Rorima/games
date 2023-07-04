@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Investing</title>
+</head>
+<body>
+    <p id="disableSound">Disable sound</p>
+    <div class="container">
+        <div id="left">
+            <button class="buttons" myattribute="fundBtns" id="libertyFundsBtn">
+                Liberty Funds:
+                <br>
+                DY: $<span id="lfdy">0.00/s</span>
+                <br>
+                Price: $<span id="lfPrice">50.00</span>
+            </button>
+
+            <button class="buttons" myattribute="fundBtns" id="societyFundsBtn">
+                Society Funds:
+                <br>
+                DY: $<span id="sfdy">0.00/s</span>
+                <br>
+                Price: $<span id="sfPrice">1,000.00</span>
+            </button>
+            
+            <button class="buttons" myattribute="fundBtns" id="publicFundsBtn">
+                Public Funds:
+                <br>
+                DY: $<span id="pfdy">0.00/s</span>
+                <br>
+                Price: $<span id="pfPrice">100,000.00</span>
+            </button>
+
+            <button class="buttons" myattribute="fundBtns" id="publicFundsBtn">
+                Humanity Funds:
+                <br>
+                DY: $<span id="hfdy">0.00/s</span>
+                <br>
+                Price: $<span id="hfPrice">1,000,000.00</span>
+            </button>
+
+            <button class="buttons" id="buyClick">
+                Buy clicks: $<span id="clickCost">0.00</span>
+                <br>
+                Your current value: $<span id="clickValue">0.001</span>
+            </button>
+        </div>
+
+        <div id="middle">
+            <div id="innerMiddle">
+                <p>$<span id="money">0.00</span></p>
+            </div>
+            <p id="donatedText">Amount donated: $<span id="donated">0.00</span></p>
+        </div>
+        
+        <div id="right">
+            <button class="buttons" myattribute="donateBtns" id="donate10">
+                Donate 10%
+            </button>
+
+            <button class="buttons" myattribute="donateBtns" id="donate30">
+                Donate 30%
+            </button>
+            
+            <button class="buttons" myattribute="donateBtns" id="donate50">
+                Donate 50%
+            </button>
+            
+            <button class="buttons" myattribute="donateBtns" id="donate70">
+                Donate 70%
+            </button>
+            
+            <button class="buttons" myattribute="donateBtns" id="donate90">
+                Donate 90%
+            </button>
+        </div>
+    </div>
+
+    <p id="moneyPerSecond">$<span id="mps">0.00</span>/mps</p>
+
+    <script src="index.js"></script>
+</body>
+</html>
